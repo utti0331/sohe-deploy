@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp-sohe.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sohe-deploy
+  host: sohe-deploy
+  disk_quota: 1024M
